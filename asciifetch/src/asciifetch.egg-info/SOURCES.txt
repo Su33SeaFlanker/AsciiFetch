@@ -1,0 +1,9 @@
+pyproject.toml
+src/asciifetch/__init__.py
+src/asciifetch/asciifetch.py
+src/asciifetch/default_conf.toml
+src/asciifetch.egg-info/PKG-INFO
+src/asciifetch.egg-info/SOURCES.txt
+src/asciifetch.egg-info/dependency_links.txt
+src/asciifetch.egg-info/entry_points.txt
+src/asciifetch.egg-info/top_level.txt
