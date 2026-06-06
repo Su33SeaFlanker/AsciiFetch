@@ -3,5 +3,5 @@ AsciiFetch is a fastfetch-like CLI utility that fetches your system info, and yo
 
 # INSTALLATION
 You need both git and python
-Linux: open terminal and run `pipx install git+https://github.com/su33seaflanker/asciifetch`
-Windows: open CMD and run`py -m pip install git+https://github.com/su33seaflanker/asciifetch`
+- Linux: open terminal and run `pipx install git+https://github.com/su33seaflanker/asciifetch`
+- Windows: open CMD and run`py -m pip install git+https://github.com/su33seaflanker/asciifetch`
