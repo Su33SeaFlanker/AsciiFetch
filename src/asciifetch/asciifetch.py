@@ -66,3 +66,4 @@ def main():
         print(ascii_arts[args.specify - 1])
     else:
         print(random.choice(ascii_arts))
+        print(args)
