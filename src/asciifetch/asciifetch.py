@@ -53,8 +53,10 @@ def main():
             return
         if(usersSystem == "Windows"):
             os.startfile(config_file)
+            return
         else:
             subprocess.run(["nano", str(config_file)])
+            return
     if args.reset_config:
         print("resetting config")
         shutil.copyfile(config_make, config_file)
