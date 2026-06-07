@@ -49,6 +49,7 @@ def main():
         usersSystem = platform.system()
         if(usersSystem == "Linux"):
             editor = os.environ.get('EDITOR', 'nano')
+            print(args)
             subprocess.run([editor, str(config_file)])
             return
         if(usersSystem == "Windows"):
@@ -66,4 +67,3 @@ def main():
         print(ascii_arts[args.specify - 1])
     else:
         print(random.choice(ascii_arts))
-        print(args)
