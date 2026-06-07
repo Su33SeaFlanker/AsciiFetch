@@ -45,7 +45,6 @@ def main():
         type=int
     )
     args = parser.parse_args()
-    print(args)
     if args.config:
         usersSystem = platform.system()
         if(usersSystem == "Linux"):
@@ -54,8 +53,6 @@ def main():
             return
         if(usersSystem == "Windows"):
             os.startfile(config_file)
-        else:
-            subprocess.run(["nano", str(config_file)])
     if args.reset_config:
         print("resetting config")
         shutil.copyfile(config_make, config_file)
