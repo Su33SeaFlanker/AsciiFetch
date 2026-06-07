@@ -49,7 +49,7 @@ def main():
         usersSystem = platform.system()
         if(usersSystem == "Linux"):
             editor = os.environ.get('EDITOR', 'nano')
-            subprocess.run(["nano", config_file])
+            subprocess.run([editor, config_file])
             return
         if(usersSystem == "Windows"):
             os.startfile(config_file)
