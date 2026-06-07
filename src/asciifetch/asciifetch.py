@@ -45,6 +45,7 @@ def main():
         type=int
     )
     args = parser.parse_args()
+    print(args)
     if args.config:
         usersSystem = platform.system()
         if(usersSystem == "Linux"):
